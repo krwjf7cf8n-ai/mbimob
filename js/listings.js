@@ -1,0 +1,65 @@
+// Edite SOMENTE este arquivo para adicionar/remover imóveis.
+// Coloque fotos em assets/ e use caminhos tipo "assets/IMAGEM.jpg"
+
+window.LISTINGS = [
+  {
+    id: "MAB-001",
+    status: "Venda",
+    type: "Sobrado",
+    title: "Sobrado moderno com 3 dormitórios",
+    location: "Sorocaba • Wanel Ville",
+    zone: "Zona Oeste",
+    price: 690000,
+    beds: 3,
+    baths: 3,
+    area: 165,
+    parking: 2,
+    cover: "assets/placeholder.jpg",
+    images: ["assets/placeholder.jpg", "assets/placeholder.jpg", "assets/placeholder.jpg"],
+    featured: true,
+    description: "Excelente localização, acabamento premium e ótima iluminação.",
+    descriptionLong: "Solicite mais detalhes e fotos pelo WhatsApp.",
+    features: ["Agende uma visita", "Documentação sob consulta", "Atendimento consultivo"],
+    whatsappMessage: "Olá! Tenho interesse no imóvel MAB-001 (Sobrado no Wanel Ville). Pode me enviar mais detalhes?"
+  },
+  {
+    id: "MAB-002",
+    status: "Venda",
+    type: "Apartamento",
+    title: "Apartamento 2 quartos com varanda",
+    location: "Sorocaba • Central Parque",
+    zone: "Zona Oeste",
+    price: 320000,
+    beds: 2,
+    baths: 1,
+    area: 58,
+    parking: 1,
+    cover: "assets/placeholder.jpg",
+    images: ["assets/placeholder.jpg", "assets/placeholder.jpg", "assets/placeholder.jpg"],
+    featured: true,
+    description: "Ótimo custo-benefício, condomínio com lazer e fácil acesso.",
+    descriptionLong: "Solicite mais detalhes e fotos pelo WhatsApp.",
+    features: ["Agende uma visita", "Documentação sob consulta", "Atendimento consultivo"],
+    whatsappMessage: "Olá! Quero saber mais sobre o imóvel MAB-002 (Apartamento no Central Parque)."
+  },
+  {
+    id: "MAB-003",
+    status: "Locação",
+    type: "Casa",
+    title: "Casa térrea com quintal",
+    location: "Sorocaba • Jardim Simus",
+    zone: "Zona Oeste",
+    price: 2400,
+    beds: 2,
+    baths: 2,
+    area: 90,
+    parking: 2,
+    cover: "assets/placeholder.jpg",
+    images: ["assets/placeholder.jpg", "assets/placeholder.jpg", "assets/placeholder.jpg"],
+    featured: true,
+    description: "Rua tranquila, quintal amplo e documentação em ordem.",
+    descriptionLong: "Solicite mais detalhes e fotos pelo WhatsApp.",
+    features: ["Agende uma visita", "Documentação sob consulta", "Atendimento consultivo"],
+    whatsappMessage: "Olá! Tenho interesse na locação do imóvel MAB-003 (Casa no Jardim Simus). Pode me passar requisitos e agenda de visita?"
+  }
+];
